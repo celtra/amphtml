@@ -1110,6 +1110,9 @@ export class AmpA4A extends AMP.BaseElement {
         }
       });
     }
+    
+    creativeMetaData.minifiedCreative = creativeMetaData.minifiedCreative.replace('<body>', '<body class="amp-animate">');
+    
     return installFriendlyIframeEmbed(
         iframe, this.element, {
           host: this.element,
