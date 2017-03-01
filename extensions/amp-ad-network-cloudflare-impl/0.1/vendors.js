@@ -30,4 +30,8 @@ export const NETWORKS = /** @type {!JSONType} */ ({
     base: 'https://www.dianomi.com',
     src: 'https://www.dianomi.com/smartads.pl?format=a4a',
   },
+
+  celtratest: {
+    base: 'https://ads.amp.celtra-test.com',
+  }
 });
